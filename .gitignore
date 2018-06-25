@@ -6,4 +6,5 @@
 !*.ipynb
 !*.md
 !Makefile
+!requirements.txt
 *-checkpoint.ipynb
