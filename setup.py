@@ -9,6 +9,8 @@ ext = [
     ]
 
 setup(
+    name="speech_dtw",
+    version="1.0",
     cmdclass = {"build_ext": build_ext},
     ext_modules = ext,
     packages=["speech_dtw"],

@@ -18,8 +18,11 @@ Dependencies
 
 Building and testing the code
 -----------------------------
+- Install the dependencies: `make init`
 - Build the Cython components: `make`
 - Run unit tests: `make test`
+- Install the distributable package: `make install` (this will allow you to import `speect_dtw` in your projects)
+- Rebuild the distributable package: `make dist`
 - Clean the code: `make clean`
 
 
